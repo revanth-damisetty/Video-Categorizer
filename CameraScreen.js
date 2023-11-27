@@ -1,5 +1,5 @@
 import { Camera ,CameraType} from 'expo-camera';
-import React, { createContext, useContext, useEffect, useState } from 'react'
+import React, { createContext, useContext, useRef, useState } from 'react'
 import { Button, StyleSheet, Text, TouchableOpacity, View,ToastAndroid } from 'react-native'
 import { AppContext } from './App';
 import { useNavigation } from '@react-navigation/native';
@@ -71,7 +71,7 @@ const CameraScreen = () => {
       function toggleCameraType() {
         setType(current => (current === CameraType.back ? CameraType.front : CameraType.back));
       }
-
+      
 
     return (
     <View>

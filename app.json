@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "RecordApp",
-    "slug": "RecordApp",
+    "slug": "videoapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,7 +25,8 @@
       "permissions": [
         "android.permission.CAMERA",
         "android.permission.RECORD_AUDIO"
-      ]
+      ],
+      "package": "com.revanthdamisetty.videoapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -41,8 +42,9 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "5a904d82-c4b2-45df-a7c4-50f310c753bd"
+        "projectId": "0505047d-8359-4aa7-b9bf-d626615b5164"
       }
-    }
+    },
+    "owner": "revanthdamisetty"
   }
 }
